@@ -15,9 +15,11 @@ export interface GlobalContextsProviderProps {
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;
+
   chakraProviderProps?: Partial<
     Omit<React.ComponentProps<typeof ChakraProvider>, "children">
   >;
+
   web3GlobalContextProps?: Partial<
     Omit<React.ComponentProps<typeof Web3GlobalContext>, "children">
   >;
@@ -199,12 +201,14 @@ export default function GlobalContextsProvider(
                         { value: "gray", trait_type: "background" },
                         { value: "pink", trait_type: "background" }
                       ],
+
                       creator:
                         "0x7c484896d088f2eb3012cac48de62fd4ec02c54540cbb1cd5e312e02216d055a",
                       createdAt: "2025-05-22T22:31:08.903Z",
                       updatedAt: "2025-05-22T22:31:08.903Z"
                     }
                   ],
+
                   visions: [
                     {
                       id: "22",
@@ -223,6 +227,7 @@ export default function GlobalContextsProvider(
                       updatedAt: "2025-05-22T22:31:08.910Z"
                     }
                   ],
+
                   teams: [
                     {
                       id: "28",
