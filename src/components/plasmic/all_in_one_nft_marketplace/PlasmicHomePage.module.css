@@ -369,6 +369,34 @@
   width: 100%;
   min-width: 0;
 }
+@media (max-width: 1024px) {
+  .freeBox__xjpqx {
+    max-width: 946px;
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 834px) {
+  .freeBox__xjpqx {
+    max-width: 751px;
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 660px) {
+  .freeBox__xjpqx {
+    max-width: 587px;
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 430px) {
+  .freeBox__xjpqx {
+    max-width: 349px;
+    width: 100%;
+    min-width: 0;
+  }
+}
 .text__swzkC {
   color: #27273a;
   font-weight: 700;
